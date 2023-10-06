@@ -85,7 +85,7 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: var(--body-color);
+  background: black;
   color: var(--text-color);
 }
 
@@ -122,6 +122,7 @@ button{
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
   padding: 4.5rem 0 2rem;
+  background: var(--body-color);
 }
 
 .section__title{
